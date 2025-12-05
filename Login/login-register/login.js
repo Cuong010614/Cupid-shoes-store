@@ -1,4 +1,4 @@
-// login.js
+
 document.getElementById("loginForm").addEventListener("submit", function (e) {
     e.preventDefault();
   
@@ -13,8 +13,7 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
   
     if (matchedUser) {
       alert("🎉 Login successful!");
-      // Redirect to homepage or dashboard
-      window.location.href = "../Home/home.html"; // Update this path if needed
+      window.location.href = "/Homepage/Index.html"; 
     } else {
       alert("⚠️ Invalid username or password.");
     }

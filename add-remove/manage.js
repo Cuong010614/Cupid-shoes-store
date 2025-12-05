@@ -1,7 +1,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js";
 import { getFirestore, collection, getDocs, deleteDoc, doc } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore.js";
 
-// Firebase configuration
+
 const firebaseConfig = {
   apiKey: "AIzaSyCjL_buOw2so_qfTtolR68P1THd7SPKpvQ",
   authDomain: "cupid-store-e3a15.firebaseapp.com",
@@ -12,11 +12,11 @@ const firebaseConfig = {
   measurementId: "G-S5KRTYZLDT"
 };
 
-// Initialize Firebase
+
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
-// Fetch products
+
 async function getProducts() {
   const result = await getDocs(collection(db, "products"));
   const products = [];
@@ -26,7 +26,7 @@ async function getProducts() {
   return products;
 }
 
-// Display products
+
 async function displayProducts() {
   const container = document.getElementById("productsContainer");
   const products = await getProducts();
