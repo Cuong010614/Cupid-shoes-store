@@ -20,5 +20,7 @@ Tất cả sản phẩm được tạo bởi Admin sẽ tự động được l�
 Trong trải nghiệm khách hàng, người dùng có thể xem chi tiết sản phẩm, thêm sản phẩm vào giỏ hàng và tiến hành mua hàng thông qua trang Cart. Giỏ hàng hiển thị tổng số lượng, tổng tiền và hỗ trợ nhiều phương thức thanh toán mô phỏng như COD, thẻ hoặc ví điện tử, giúp website mang tính thực tế và dễ sử dụng.
 
 Với sự kết hợp giữa giao diện trực quan, chức năng đầy đủ và cách tổ chức dữ liệu khoa học, website Cupid Store mang đến một nền tảng hoàn chỉnh cho trải nghiệm mua sắm trực tuyến cơ bản, phù hợp cho các bài tập lớn, đồ án môn học hoặc mô phỏng hệ thống e-commerce mini.
+
 Link page: https://cuong010614.github.io/web12-12f1-MDTLYNAD-commerce-web/
+
 
