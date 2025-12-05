@@ -26,7 +26,7 @@ async function loadClothes() {
       const card = document.createElement("div");
       card.className = "col-sm-6 col-md-4";
       card.innerHTML = `
-        <a href="/Product/detail.html?id=${doc.id}" class="text-decoration-none text-dark">
+        <a href="./../Product/detail.html?id=${doc.id}" class="text-decoration-none text-dark">
           <div class="card h-100">
             <img src="${data.image}" class="card-img-top" alt="${data.name}" onerror="this.src='default.png'">
             <div class="card-body">
